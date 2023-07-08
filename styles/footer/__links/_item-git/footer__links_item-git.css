@@ -1,0 +1,7 @@
+.footer__links_item-git {
+    background-image: url('../../../../icons/icons8-github.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 44px;
+    height: 44px;
+}

@@ -1,0 +1,7 @@
+.footer__links_item-email {
+    background-image: url('../../../../icons/icons8-gmail-logo.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 44px;
+    height: 44px;
+}
