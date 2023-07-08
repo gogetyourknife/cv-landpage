@@ -1,0 +1,24 @@
+.aboutme__list_item {
+    color: #000;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.aboutme__list_item:last-child {
+    margin-bottom: 0;
+}
+
+.aboutme__list_item::before {
+    content: "\2022";
+    color: #87EDD4;
+    font-weight: bold;
+    display: inline-block;
+    width: 10px;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+}

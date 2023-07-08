@@ -1,0 +1,14 @@
+.webdesign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E6DFF2;
+    min-width: 100%;
+    min-height: 500px;
+    margin: 0;
+    padding: 0;
+    background-image: url('../../images/vector-lines-web.svg');
+    background-repeat: no-repeat;
+    background-position: 0 -100%;
+    position: relative;
+}

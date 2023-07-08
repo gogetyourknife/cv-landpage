@@ -1,0 +1,6 @@
+.education__list {
+    margin: 0;
+    padding: 176px 95px 0;
+    display: flex;
+    justify-content: space-between;
+}

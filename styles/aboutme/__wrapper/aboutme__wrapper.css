@@ -1,0 +1,6 @@
+.aboutme__wrapper {
+    padding: 0 95px;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}

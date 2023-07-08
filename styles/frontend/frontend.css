@@ -1,0 +1,7 @@
+.frontend {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 100%;
+    margin: 0;
+}
