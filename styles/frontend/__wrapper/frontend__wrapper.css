@@ -2,3 +2,9 @@
     padding: 50px 95px;
     margin: 0;
 }
+
+@media (max-width: 769px) {
+    .frontend__wrapper {
+        padding: 50px 60px;
+    }
+}

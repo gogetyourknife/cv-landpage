@@ -8,3 +8,62 @@
     max-width: 100%;
     gap: 65px;
 }
+
+@media (max-width: 1000px) {
+    .header__nav {
+        gap: 5vw;
+    }
+}
+
+@media (max-width: 769px) {
+    .header__nav {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 689px) {
+    .header__nav {
+        gap: 4vw;
+    }
+}
+
+@media (max-width: 452px) {
+    .header__nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 25px;
+        text-align: center;
+    }
+
+    .webdesign-nav {
+        grid-column-start: 3;
+        grid-column-end: 3;
+    }
+
+    .frontend-nav {
+        grid-column-start: 3;
+        grid-column-end: 3;
+    }
+
+    .contacts-nav {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+    .education-nav {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+}
+
+@media (max-width: 361px) {
+    .header__nav {
+        row-gap: 15px;
+        margin: 20px 0;
+    }
+}

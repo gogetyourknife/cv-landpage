@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
     <link rel="icon" type="image/x-icon" href="./icons/favicon.ico">
-    <title>Luna's Landing Page</title>
+    <title>Luna's CV</title>
 </head>
 
 <body>
@@ -14,10 +14,10 @@
         <header class="header">
             <nav class="header__nav">
                 <a href="#aboutme" class="header__nav_item">About me</a>
-                <a href="#webdesign" class="header__nav_item">Web design</a>
-                <a href="#frontend" class="header__nav_item">Frontend</a>
-                <a href="#education" class="header__nav_item">Education</a>
-                <a href="#footer" class="header__nav_item">Contacts</a>
+                <a href="#webdesign" class="header__nav_item webdesign-nav">Web design</a>
+                <a href="#frontend" class="header__nav_item frontend-nav">Frontend</a>
+                <a href="#education" class="header__nav_item education-nav">Education</a>
+                <a href="#footer" class="header__nav_item contacts-nav">Contacts</a>
             </nav>
             <h1 class="header__title">Hello there</h1>
         </header>
@@ -40,6 +40,33 @@
         </section>
         <section id="webdesign" class="webdesign">
             <h2 class="webdesign__title">Web design</h2>
+            <div class="webdesign__wrapper">
+                <ul class="webdesing__list">
+                    <li class="webdesign__list_item">
+                        <img src="./images/parrots.jpg" alt="Design preview" class="webdesign__item_image">
+                        <h3 class="webdesign__item_title">
+                            <a class="webdesign__item_title" target="_blank"
+                                href="https://www.figma.com/file/pZ0dCkler4yE7HcvXzJDSC/parrot_final?type=design&node-id=0%3A1&mode=design&t=7lkB0YPxhh9uZ4c6-1">Parent
+                                for Parrot</a>
+                        </h3>
+                        <p class="webdesign__item_descr">
+                            It was made for an educational project for Ukrainian children
+                            «Образовательный Мост», as a tool to learn the basics of HTML. I was a part of the team of
+                            tutors as an Informatics teacher.</p>
+                    </li>
+                    <li class="webdesign__list_item">
+                        <img src="./images/kitten.jpg" alt="Design preview" class="webdesign__item_image">
+                        <h3 class="webdesign__item_title">
+                            <a class="webdesign__item_title" target="_blank"
+                                href="https://www.figma.com/file/oL1VNa8tkKVSAZvrGsRGzA/Sphynx-online-store?type=design&node-id=0%3A1&mode=design&t=7LW3iukuQ4xk34m1-1">Sphynx
+                                Cats</a>
+                        </h3>
+                        <p class="webdesign__item_descr">
+                            A prototype of a small shop dedicated to Sphynx cats. I
+                            have a Sphynx cat myself, you don't want to know how many care features there are.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section id="frontend" class="frontend">
             <div class="frontend__wrapper">
@@ -60,7 +87,7 @@
                                 class="frontend__html_link template__link">Responsive web page with interactive
                                 elements
                                 powered by Java
-                                Script</a>
+                                Script made just for fun</a>
                         </li>
                     </ul>
                 </div>
@@ -76,11 +103,16 @@
                                 class="frontend__js_link template__link">«‎Pig» game‎</a>
                         </li>
                         <li class="frontend__js_item template__list_item">
+                            <a href="https://github.com/gogetyourknife/bankist" target="_blank"
+                                class="frontend__js_link template__link">Banking UI app</a>
+                        </li>
+                        <li class="frontend__js_item template__list_item">
                             <a href="#" target="_blank" class="frontend__js_link template__link">Mapty app for recording
                                 time of running</a>
                         </li>
                         <li class="frontend__js_item template__list_item">
-                            <a href="#" target="_blank" class="frontend__js_link template__link">Forky app for searching
+                            <a href="https://forkyapp-gogetyourknife.netlify.app" target="_blank"
+                                class="frontend__js_link template__link">Forky app for searching
                                 the recipes</a>
                         </li>
                         <li class="frontend__js_item template__list_item">
@@ -95,12 +127,14 @@
                     <ul class="frontend__react_list template__list">
                         <li class="frontend__react_item template__list_item">
                             <a href="https://gogetyourknife.nomorepartiesxyz.ru/sign-in" target="_blank"
-                                class="frontend__react_link template__link">Full project «‎Mesto» inspired by Instargam
+                                class="frontend__react_link template__link">Responsive app «‎Mesto» inspired by
+                                Instargam
                                 with frontend and backend‎</a>
                         </li>
                         <li class="frontend__react_item template__list_item">
                             <a href="https://best-movies.nomoredomains.icu/" target="_blank"
-                                class="frontend__react_link template__link">Project «‎Movies» for searching and saving
+                                class="frontend__react_link template__link">Responsive app «‎Movies» for searching and
+                                saving
                                 Beat Film festival movies</a>
                         </li>
                     </ul>

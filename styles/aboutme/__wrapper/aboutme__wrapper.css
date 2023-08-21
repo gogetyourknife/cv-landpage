@@ -3,4 +3,18 @@
     margin: 50px 0;
     display: flex;
     justify-content: space-between;
+    gap: 5vw;
+    align-items: center;
+}
+
+@media (max-width: 769px) {
+    .aboutme__wrapper {
+        padding: 0 65px;
+    }
+}
+
+@media (max-width: 665px) {
+    .aboutme__wrapper {
+        padding: 0 55px;
+    }
 }

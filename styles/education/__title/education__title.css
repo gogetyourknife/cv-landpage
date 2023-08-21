@@ -10,3 +10,9 @@
     position: absolute;
     right: 0;
 }
+
+@media (max-width: 769px) {
+    .education__title {
+        margin-right: 45px;
+    }
+}

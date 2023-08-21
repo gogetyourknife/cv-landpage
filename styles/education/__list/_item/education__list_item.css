@@ -5,3 +5,9 @@
     max-width: 160px;
     gap: 20px;
 }
+
+@media (max-width: 769px) {
+    .education__list_item {
+        max-width: 140px;
+    }
+}

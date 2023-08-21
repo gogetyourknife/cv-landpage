@@ -1,0 +1,15 @@
+.webdesing__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 15vw;
+}
+
+@media (max-width: 769px) {
+    .webdesing__list {
+        gap: 10vw;
+    }
+}

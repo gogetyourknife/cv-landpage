@@ -19,3 +19,45 @@
         background-size: contain;
     }
 }
+
+@media (max-width: 1000px) {
+    .header {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 769px) {
+    .header {
+        min-height: 400px;
+    }
+}
+
+@media (max-width: 452px) {
+    .header {
+        position: static;
+        display: flex;
+        gap: 40px;
+        min-height: 350px;
+        background-position: top 50% right 300%;
+    }
+}
+
+@media (max-width: 400px) {
+    .header {
+        background-position: top 50% right 230%;
+    }
+}
+
+@media (max-width: 361px) {
+    .header {
+        gap: 30px;
+        background-position: top 50% right 150%;
+    }
+}
+
+@media (max-width: 361px) {
+    .header {
+        background-image: none;
+        min-height: 300px;
+    }
+}

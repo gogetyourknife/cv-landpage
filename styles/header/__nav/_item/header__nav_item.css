@@ -11,3 +11,15 @@
 .header__nav_item:hover {
     color: #3D226B;
 }
+
+@media (max-width: 769px) {
+    .header__nav_item {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 689px) {
+    .header__nav_item {
+        font-size: 14.5px;
+    }
+}

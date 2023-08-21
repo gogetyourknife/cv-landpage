@@ -4,3 +4,17 @@
     height: 400px;
     width: 400px;
 }
+
+@media (max-width: 900px) {
+    .aboutme__photo {
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 700px) {
+    .aboutme__photo {
+        height: 280px;
+        width: 280px;
+    }
+}

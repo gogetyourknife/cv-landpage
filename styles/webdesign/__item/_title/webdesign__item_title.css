@@ -1,0 +1,15 @@
+.webdesign__item_title {
+    padding: 0;
+    margin: 20px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 21px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+}
+
+.webdesign__item_title:hover {
+    color: #3D226B;
+}

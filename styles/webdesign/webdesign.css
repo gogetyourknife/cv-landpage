@@ -4,11 +4,24 @@
     align-items: center;
     background-color: #E6DFF2;
     min-width: 100%;
-    min-height: 500px;
+    min-height: 800px;
     margin: 0;
     padding: 0;
     background-image: url('../../images/vector-lines-web.svg');
     background-repeat: no-repeat;
-    background-position: 0 -100%;
+    background-position: 0 -40%;
     position: relative;
+}
+
+@media (max-width: 1025px) {
+    .webdesign {
+        background-size: 95%;
+    }
+}
+
+@media (max-width: 769px) {
+    .webdesign {
+        background-position: 0 -50%;
+        background-size: 120%;
+    }
 }

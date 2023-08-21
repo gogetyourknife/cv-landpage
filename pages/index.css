@@ -19,6 +19,13 @@
 @import url('../styles/aboutme/__photo/aboutme__photo.css');
 @import url('../styles/webdesign/webdesign.css');
 @import url('../styles/webdesign/__title/webdesign__title.css');
+@import url('../styles//webdesign/__wrapper/webdesign__wrapper.css');
+@import url('../styles/webdesign/__list/webdesing__list.css');
+@import url('../styles/webdesign/__item/_image/webdesign__item_image.css');
+@import url('../styles/webdesign/__list/_item/webdesign__list_item.css');
+@import url('../styles/webdesign/__item/_title/webdesign__item_title.css');
+@import url('../styles/webdesign/__item/_descr/webdesign__item_descr.css');
+
 @import url('../styles/frontend/frontend.css');
 @import url('../styles/frontend/__wrapper/frontend__wrapper.css');
 @import url('../styles/frontend/__title/frontend__title.css');
