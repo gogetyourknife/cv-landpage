@@ -13,3 +13,21 @@
 .education__school:hover {
     color: #3D226B;
 }
+
+@media (max-width: 769px) {
+    .education__school {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .education__school {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 500px) {
+    .education__school {
+        font-size: 15px;
+    }
+}

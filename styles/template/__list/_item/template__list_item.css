@@ -22,3 +22,13 @@
     padding: 0;
     margin-right: 20px;
 }
+
+@media (max-width: 600px) {
+    .template__list_item {
+        font-size: 17px;
+    }
+
+    .template__list_item::before {
+        margin-right: 13px;
+    }
+}

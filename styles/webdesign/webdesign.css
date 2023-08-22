@@ -5,6 +5,7 @@
     background-color: #E6DFF2;
     min-width: 100%;
     min-height: 800px;
+    max-width: 100%;
     margin: 0;
     padding: 0;
     background-image: url('../../images/vector-lines-web.svg');
@@ -23,5 +24,13 @@
     .webdesign {
         background-position: 0 -50%;
         background-size: 120%;
+    }
+}
+
+@media (max-width: 739px) {
+    .webdesign {
+        background-position: 0 -35%;
+        background-size: 110%;
+        min-height: 100%;
     }
 }

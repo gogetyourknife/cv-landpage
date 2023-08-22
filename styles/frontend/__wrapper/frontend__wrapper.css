@@ -8,3 +8,15 @@
         padding: 50px 60px;
     }
 }
+
+@media (max-width: 610px) {
+    .frontend__wrapper {
+        padding: 40px 55px;
+    }
+}
+
+@media (max-width: 560px) {
+    .frontend__wrapper {
+        padding: 50px 40px;
+    }
+}

@@ -30,6 +30,13 @@
     }
 }
 
+@media (max-width: 769px) {
+    .header__title {
+        margin-left: 25px;
+        margin-top: 150px;
+    }
+}
+
 @media (max-width: 452px) {
     .header__title {
         margin: 0;

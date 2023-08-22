@@ -9,3 +9,9 @@
     padding: 0;
     margin-bottom: 30px;
 }
+
+@media (max-width: 600px) {
+    .template__title {
+        font-size: 20px;
+    }
+}

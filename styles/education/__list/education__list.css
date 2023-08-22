@@ -10,5 +10,16 @@
 @media (max-width: 769px) {
     .education__list {
         gap: 3vw;
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .education__list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        place-items: center;
+        gap: 8vw;
     }
 }

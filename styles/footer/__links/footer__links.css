@@ -5,3 +5,9 @@
     margin: 0;
     padding: 35px 0;
 }
+
+@media (max-width: 600px) {
+    .footer__links {
+        padding: 20px 0;
+    }
+}

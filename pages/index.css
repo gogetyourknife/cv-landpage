@@ -32,6 +32,7 @@
 @import url('../styles/frontend/__html/frontend__html.css');
 @import url('../styles/frontend/__js/frontend__js.css');
 @import url('../styles/education/education.css');
+@import url('../styles/education/__wrapper/education__wrapper.css');
 @import url('../styles/education/__title/education__title.css');
 @import url('../styles/education/__list/education__list.css');
 @import url('../styles/education/__list/_item/education__list_item.css');

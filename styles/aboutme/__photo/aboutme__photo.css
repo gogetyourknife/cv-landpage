@@ -7,8 +7,15 @@
 
 @media (max-width: 900px) {
     .aboutme__photo {
-        height: 350px;
+        height: 340px;
         width: 350px;
+    }
+}
+
+@media (max-width: 769px) {
+    .aboutme__photo {
+        height: 310px;
+        width: 310px;
     }
 }
 
@@ -16,5 +23,12 @@
     .aboutme__photo {
         height: 280px;
         width: 280px;
+    }
+}
+
+@media (max-width: 600px) {
+    .aboutme__photo {
+        width: 100%;
+        object-fit: contain;
     }
 }

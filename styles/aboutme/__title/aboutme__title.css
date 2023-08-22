@@ -7,3 +7,16 @@
     text-transform: uppercase;
     color: #000;
 }
+
+@media (max-width: 610px) {
+    .aboutme__title {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 560px) {
+    .aboutme__title {
+        font-size: 20px;
+    }
+}

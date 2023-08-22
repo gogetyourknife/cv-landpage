@@ -11,3 +11,23 @@
         max-width: 140px;
     }
 }
+
+@media (max-width: 600px) {
+    .education__list_item {
+        gap: 1.7vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .education__list_item {
+        max-width: 100px;
+    }
+}
+
+@media (max-width: 500px) {
+    .education__list_item {
+        height: 100%;
+        max-width: 120px;
+        gap: 2vw;
+    }
+}

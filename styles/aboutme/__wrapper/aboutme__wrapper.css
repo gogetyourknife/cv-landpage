@@ -1,10 +1,11 @@
 .aboutme__wrapper {
     padding: 0 95px;
     margin: 50px 0;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 5vw;
     align-items: center;
+
 }
 
 @media (max-width: 769px) {
@@ -16,5 +17,24 @@
 @media (max-width: 665px) {
     .aboutme__wrapper {
         padding: 0 55px;
+    }
+}
+
+@media (max-width: 610px) {
+    .aboutme__wrapper {
+        margin: 40px 0;
+    }
+}
+
+@media (max-width: 560px) {
+    .aboutme__wrapper {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .aboutme__wrapper {
+        padding: 0 25px;
+        align-items: flex-start;
     }
 }
