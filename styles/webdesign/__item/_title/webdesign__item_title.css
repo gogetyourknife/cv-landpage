@@ -25,3 +25,15 @@
         font-size: 0.95em;
     }
 }
+
+@media (max-width: 450px) {
+    .webdesign__item_title {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 376px) {
+    .webdesign__item_title {
+        margin: 10px 0;
+    }
+}

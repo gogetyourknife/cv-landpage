@@ -46,3 +46,15 @@
         font-size: 2.7vw;
     }
 }
+
+@media (max-width: 426px) {
+    .aboutme__list_item {
+        line-height: 15px;
+        margin-bottom: 8px;
+    }
+
+    .aboutme__list_item::before {
+        width: 7px;
+        margin-right: 5px;
+    }
+}

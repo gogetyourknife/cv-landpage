@@ -12,3 +12,10 @@
         height: 34px;
     }
 }
+
+@media (max-width: 376px) {
+    .footer__links_item-email {
+        width: 21px;
+        height: 21px;
+    }
+}

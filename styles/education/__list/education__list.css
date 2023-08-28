@@ -1,9 +1,8 @@
 .education__list {
     margin: 0;
-    padding: 135px 0 50px;
-    display: flex;
-    justify-content: space-between;
-    max-width: 1090px;
+    padding: 50px 0 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 5vw;
 }
 
@@ -21,5 +20,11 @@
         justify-content: center;
         place-items: center;
         gap: 8vw;
+    }
+}
+
+@media (max-width: 426px) {
+    .education__list {
+        padding: 20px 0;
     }
 }

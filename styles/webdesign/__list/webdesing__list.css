@@ -13,12 +13,18 @@
 
 @media (max-width: 769px) {
     .webdesing__list {
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+        grid-template-columns: repeat(2, minmax(100px, 1fr))
     }
 }
 
 @media (max-width: 739px) {
     .webdesing__list {
         padding-top: 50px;
+    }
+}
+
+@media (max-width: 426px) {
+    .webdesing__list {
+        padding-top: 30px;
     }
 }

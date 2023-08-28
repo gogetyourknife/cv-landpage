@@ -47,17 +47,10 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 426px) {
     .header {
-        background-position: top 50% right 230%;
-    }
-}
-
-@media (max-width: 361px) {
-    .header {
+        min-height: 250px;
         gap: 30px;
-        background-position: top 50% right 150%;
         background-image: none;
-        min-height: 300px;
     }
 }

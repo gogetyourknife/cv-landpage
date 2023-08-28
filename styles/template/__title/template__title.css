@@ -3,7 +3,7 @@
     font-family: Montserrat;
     font-size: 25px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: normal;
     margin: 0;
     padding: 0;
@@ -13,5 +13,12 @@
 @media (max-width: 600px) {
     .template__title {
         font-size: 20px;
+    }
+}
+
+@media (max-width: 426px) {
+    .template__title {
+        font-size: 0.9em;
+        margin-bottom: 20px;
     }
 }

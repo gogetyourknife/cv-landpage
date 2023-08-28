@@ -61,6 +61,13 @@
     }
 }
 
+@media (max-width: 426px) {
+    .header__nav {
+        row-gap: 25px;
+        column-gap: 35px;
+    }
+}
+
 @media (max-width: 361px) {
     .header__nav {
         row-gap: 15px;

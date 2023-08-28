@@ -32,3 +32,17 @@
         height: 120px;
     }
 }
+
+@media (max-width: 426px) {
+    .education__logo {
+        width: 110px;
+        height: 110px;
+    }
+}
+
+@media (max-width: 376px) {
+    .education__logo {
+        width: 90px;
+        height: 90px;
+    }
+}

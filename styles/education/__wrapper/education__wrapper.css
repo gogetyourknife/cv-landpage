@@ -1,9 +1,3 @@
-@media (max-width: 610px) {
-    .education__wrapper {
-        padding: 0 55px;
-    }
-}
-
 @media (max-width: 500px) {
     .education__wrapper {
         padding: 0;

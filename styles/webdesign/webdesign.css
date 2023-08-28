@@ -34,3 +34,10 @@
         min-height: 100%;
     }
 }
+
+@media (max-width: 426px) {
+    .webdesign {
+        position: static;
+        background-image: none;
+    }
+}
